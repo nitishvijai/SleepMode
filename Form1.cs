@@ -73,5 +73,11 @@ namespace SleepMode
             AboutForm aboutFrm = new AboutForm();
             aboutFrm.ShowDialog();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            SettingsFrm settings = new SettingsFrm();
+            settings.ShowDialog();
+        }
     }
 }
